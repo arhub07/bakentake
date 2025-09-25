@@ -1,0 +1,4 @@
+typeid|typename|typeprice|typesugar|typecalorie|typeavailableunits|typeimage
+typ6_1|Chicken|0|0|0|Unlimited|NA
+typ6_2|Ham and Cheese|15|0|2000|Unlimited|NA
+typ6_3|Tuna|15|0|2000|Unlimited|NA

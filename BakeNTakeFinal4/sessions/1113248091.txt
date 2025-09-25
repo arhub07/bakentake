@@ -1,0 +1,4 @@
+id|itemid|flavid|typeid|toppid|quanti
+1|bt0014|None|None|None|1
+2|bt0009|None|None|None|1
+3|bt0016|None|None|None|1

@@ -1,0 +1,10 @@
+username|email|datetime|rating|message
+guest2|email2email.com|04/11/2023|5|Congratulations guys! All the best !
+guest|email1@email.com|04/13/2023|5|Your products are amazing. Keep up the good work.
+guest1|email10@email.com|04/14/2023|5|Awesome concept! Keep up the good work.
+visitor|v@email.com|04/15/2023|4.5|Very good work! All the best!
+jack|j@rmail.com|04/15/2023|5|Whoa! This is pretty professionally done website! You guys did a great job!
+Sasmit|sa@email.com|04/16/2023|5|Good job guys!
+a|arjunsdebnath@gmail.com|04/21/2023|4.5|thanks
+a|a|04/23/2023|4.5|a
+Guest|SANDIPDEBNATH@HOTMAIL.COM|06/27/2023|4.5|This is great!

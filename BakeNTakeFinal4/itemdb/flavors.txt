@@ -1,0 +1,21 @@
+flavorid|flavorname|flavorprice|flavorsugar|flavorcalorie|flavoravailableunits|flavorimage
+f3_1|Chocolate|0|2|30|Unlimited|NA
+f3_2|Mocha|0|0|5|Unlimited|NA
+f3_3|Hazelnut|0|0|50|Unlimited|NA
+f4_1|Blueberry|0|0.5|10|Unlimited|NA
+f4_2|Strawberry|0|0.5|10|Unlimited|NA
+f4_3|Red Velvet|0|0.75|10|Unlimited|NA
+f4_4|Chocolate|0|0.5|30|Unlimited|NA
+f11_1|Chocolate|0|0|0|Unlimited|NA
+f11_2|Vanilla|0|0|0|Unlimited|NA
+f11_3|Red Velvet|0|0|0|Unlimited|NA
+f11_4|Strawberry|0|0|0|Unlimited|NA
+f11_5|Orange Creamsicle|0|0|0|Unlimited|NA
+f11_6|White Chocolate Raspberry|0|0|0|Unlimited|NA
+f11_7|Pistachio|0|0|0|Unlimited|NA
+f11_8|Lemon French|0|0|0|Unlimited|NA
+f13_1|Chocolate Frost|0|0.5|10|Unlimited|NA
+f13_2|Maple|0|0.5|10|Unlimited|NA
+f13_3|Straberry|0|0.0|5|Unlimited|NA
+
+

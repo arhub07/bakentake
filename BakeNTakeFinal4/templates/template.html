@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Bake N' Take (Jackson Heights High School)</title>
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+  <!-- font awesome style -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- bootstrap core css -->
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700|Roboto:400,700&display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+  <link href="/static/css/style_.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="/static/css/responsive.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.0.1/dist/chart.umd.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css" />
+  <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico">
+
+  {{modalscript | safe}}
+</head>
+
+<body>
+
+  {{modaldivhtml | safe}}
+  <!--<div class="hero_area1">-->
+    <!-- header section strats -->
+    <header class="header_section">
+
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+          <a class="navbar-brand" href="/">
+            <img src="/static/images/logo-bakery.png" title="Bake N' Take Homepage" height="52px" width="227px">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex  flex-column flex-lg-row align-items-center w-100 justify-content-between">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="/about" title="About"> About </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/principle" title="Our Principle"> Our Principle </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/menu" title="Menu"> Menu </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/order" title="Order"> Order </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/reviews" title="Reviews"> Reviews </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contact" title="Contact Us">Contact Us</a>
+                </li>
+              </ul>
+              <form class="form-inline" action="/search" method="GET">
+                <input type="search" placeholder="Search" name="q" style="border-radius: 0.25rem;">&nbsp;
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"  title="Search"></button>
+              </form>
+            </div>
+          </div>
+
+          {{useraccounthtml | safe}}
+
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+  {{contenthtml |safe}}
+    <!-- end slider section -->
+  <!--</div>-->
+
+  <!-- end feature section -->
+  {{carthtml |safe }}
+
+
+  <!-- info section -->
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info_contact">
+            <h4>
+              Contact
+            </h4>
+            <div class="box">
+              <div class="img-box">
+                <img src="/static/images/telephone-symbol-button.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  +1 425-385-7000
+                </h6>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box">
+                <img src="/static/images/email.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  <a href=mailto:bakentake2007@gmail.com style="color:white;">bakentake2007@gmail.com</a>
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_menu">
+            <h4>
+              Important Links
+            </h4>
+            <ul class="navbar-nav  ">
+              <li class="nav-item active">
+                <a class="nav-link" href="/privacy">Privacy Policy </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/terms">Terms Of Use </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/cookie"> Cookie Preferences </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/site"> Site Map</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_menu">
+            <h4>
+              Help
+            </h4>
+            <ul class="navbar-nav  ">
+              <li class="nav-item active">
+                <a class="nav-link" href="/account">Your Account <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/account?w=o"> Your Orders </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/chat" 
+                onclick="window.open('/chat', 'chatwindow', 'width=450,height=500'); return false;"> Chat </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_news">
+            <h4>
+              newsletter
+            </h4>
+            <form action="/newsletter" method="POST">
+              <input type="text" placeholder="Enter Your email" name="email">
+              <div class="d-flex justify-content-start  mt-3">
+                <button onclick=this.form.submit()>Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center">
+      <a href="/social?w=f"><img src=/static/images/facebook.png width="32px" height="32px" style="background-color: #ffffff;" title="Facebook"></a>
+      <a href="/social?w=t"><img src=/static/images/twitter.png width="32px" height="32px"  style="background-color: #ffffff;" title="Twitter"></a>
+      <a href="/social?w=p"><img src=/static/images/pinterest.png width="32px" height="32px" style="background-color: #ffffff;" title="Pinterest"></a>
+      <a href="/social?w=i"><img src=/static/images/instagram.png width="32px" height="32px" style="background-color: #ffffff;" title="Instagram"></a>    
+    </div>
+  </section>
+  <!-- end info section -->
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <p>
+      &copy; 2023:  Bake N' Take:  All Rights Reserved. </a>
+    </p>
+  </section>
+  <!-- footer section -->
+
+  {{scripthtml | safe}}
+
+
+
+  <div class="floating-container">
+    <div class="floating-button">+</div>
+    <div class="element-container">
+      <span class="float-element">
+      <a href="mailto:bakentake2007@gmail.com">
+        <i class="material-icons">email</i></a>
+      </span>
+      <span class="float-element">
+      <a href="/chat" onclick="window.open('/chat', 'chatwindow', 'width=450,height=500'); return false;">
+        <i class="material-icons">chat</i></a>
+      </span>
+    </div>
+  </div>
+
+</body>
+</html>

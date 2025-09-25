@@ -1,0 +1,7 @@
+toppingid|toppingname|toppingprice|toppingsugar|toppingcalorie|toppingavailableunits|toppingimage
+top2_1|Vanilla Icing|0|0|10|Unlimited|NA
+top2_2|Strawberry Icing|0|2|10|Unlimited|NA
+top2_3|Caramel Icing|5|2|30|Unlimited|NA
+top13_1|Sprinkles|0|1.75|12|Unlimited|NA
+top13_2|Caramel|0|1.5|10|Unlimited|NA
+top13_3|Nuts|0|0|4|Unlimited|NA

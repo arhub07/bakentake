@@ -1,0 +1,156 @@
+
+body {
+  padding-top: 40px;
+}
+
+.navbar {
+  background-color: #2D9596 !important;
+}
+
+.navbar-brand img {
+  margin-right: 15px;
+}
+
+.navbar-nav {
+  padding-right: 15px;
+}
+
+.left-content {
+  padding-left: 50px;
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.right-content {
+  padding-right: 50px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.vertical-align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-caption {
+  display: flex;
+}
+
+.carousel-item img {
+  max-height: 500px;
+  width: auto;
+  margin: auto;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.service-section {
+  background-color: #AED8CC;
+  padding: 50px 0;
+
+background: url(../images/diabetes-dark-bgk.jpg) no-repeat left center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+
+}
+.service-item {
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #fff;
+  color:#000
+  padding: 30px;
+
+
+}
+
+.service-item img {
+  border-radius: 0%;
+  max-width: 100%;
+  height: auto;
+   padding: 30px;
+
+}
+
+.service-item h3 {
+  margin-top: 10px;
+     }
+
+/* Add this CSS to your existing styles */
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+.card img {
+  flex: 0 0 40%;
+  /* Adjust the percentage as needed */
+}
+
+.card-body {
+  flex: 0 0 60%;
+  /* Adjust the percentage as needed */
+  padding: 1rem;
+}
+
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.btn-teal {
+  background-color: #008080; /* Teal color, you can adjust this */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 10px 20px; /* Adjust padding as needed */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-beige {
+  background-color: beige; /* Teal color, you can adjust this */
+  color: #000; /* Text color */
+  border: none;
+  padding: 10px 20px; /* Adjust padding as needed */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.rounded-pill {
+  border-radius: 50px; /* Adjust the border-radius for rounded corners */
+}
+/* Add this CSS to your existing styles or in the head section of your HTML document */
+.form-group {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  /* Adjust styles for smaller screens */
+  .col-lg-6 {
+    width: 100%;
+  }
+}
